@@ -1,3 +1,4 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="How to use FLY",Text="Press F to Fly", Duration=15})
 repeat wait() 
 	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
 local mouse = game.Players.LocalPlayer:GetMouse() 
